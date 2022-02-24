@@ -11,7 +11,7 @@ const displayFooter = true;
 const App = () => {
   return (
     <div className="app">
-      <h1>V5 MINI APP COMPONENT</h1>
+      V5 MINI APP COMPONENT
       <Body />
       <BrowserRouter>
         <Link to="/">HOME</Link>

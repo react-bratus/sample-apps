@@ -9,7 +9,7 @@ import Page1 from "./pages/Page1";
 const App = () => {
   return (
     <div className="app">
-      <h1>V6 MINI APP COMPONENT</h1>
+      V6 MINI APP COMPONENT
       <Body />
       <BrowserRouter>
         <NavLink to="/">HOME</NavLink>

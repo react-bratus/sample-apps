@@ -1,9 +1,5 @@
 const Body = () => {
-  return (
-    <div>
-      <h2>BODY COMPONENT</h2>
-    </div>
-  );
+  return <div>BODY COMPONENT</div>;
 };
 
 export default Body;
