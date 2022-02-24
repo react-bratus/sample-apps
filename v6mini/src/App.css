@@ -1,0 +1,27 @@
+.App {
+  color: rgb(224, 151, 125);
+  text-align: left;
+
+  padding: 30px 30px;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  border: 2px solid rgb(144, 144, 144);
+  padding-bottom: 40px;
+}
+
+a {
+  color: rgb(87, 185, 88);
+}
+
+a:visited {
+  color: rgb(87, 185, 88);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+}
