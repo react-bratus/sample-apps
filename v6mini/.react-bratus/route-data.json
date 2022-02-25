@@ -1,0 +1,244 @@
+[
+  {
+    "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/v6mini/src/App.jsx",
+    "attributes": {},
+    "optional": false,
+    "isRouteElement": false,
+    "node": {
+      "type": "JSXOpeningElement",
+      "start": 504,
+      "end": 541,
+      "loc": {
+        "start": { "line": 19, "column": 10 },
+        "end": { "line": 19, "column": 47 }
+      },
+      "name": {
+        "type": "JSXIdentifier",
+        "start": 505,
+        "end": 510,
+        "loc": {
+          "start": { "line": 19, "column": 11 },
+          "end": { "line": 19, "column": 16 }
+        },
+        "name": "Route"
+      },
+      "attributes": [
+        {
+          "type": "JSXAttribute",
+          "start": 511,
+          "end": 519,
+          "loc": {
+            "start": { "line": 19, "column": 17 },
+            "end": { "line": 19, "column": 25 }
+          },
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 511,
+            "end": 515,
+            "loc": {
+              "start": { "line": 19, "column": 17 },
+              "end": { "line": 19, "column": 21 }
+            },
+            "name": "path"
+          },
+          "value": {
+            "type": "StringLiteral",
+            "start": 516,
+            "end": 519,
+            "loc": {
+              "start": { "line": 19, "column": 22 },
+              "end": { "line": 19, "column": 25 }
+            },
+            "extra": { "rawValue": "/", "raw": "\"/\"" },
+            "value": "/"
+          }
+        },
+        {
+          "type": "JSXAttribute",
+          "start": 520,
+          "end": 538,
+          "loc": {
+            "start": { "line": 19, "column": 26 },
+            "end": { "line": 19, "column": 44 }
+          },
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 520,
+            "end": 527,
+            "loc": {
+              "start": { "line": 19, "column": 26 },
+              "end": { "line": 19, "column": 33 }
+            },
+            "name": "element"
+          },
+          "value": {
+            "type": "JSXExpressionContainer",
+            "start": 528,
+            "end": 538,
+            "loc": {
+              "start": { "line": 19, "column": 34 },
+              "end": { "line": 19, "column": 44 }
+            },
+            "expression": {
+              "type": "JSXElement",
+              "start": 529,
+              "end": 537,
+              "loc": {
+                "start": { "line": 19, "column": 35 },
+                "end": { "line": 19, "column": 43 }
+              },
+              "openingElement": {
+                "type": "JSXOpeningElement",
+                "start": 529,
+                "end": 537,
+                "loc": {
+                  "start": { "line": 19, "column": 35 },
+                  "end": { "line": 19, "column": 43 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 530,
+                  "end": 534,
+                  "loc": {
+                    "start": { "line": 19, "column": 36 },
+                    "end": { "line": 19, "column": 40 }
+                  },
+                  "name": "Home"
+                },
+                "attributes": [],
+                "selfClosing": true
+              },
+              "closingElement": null,
+              "children": []
+            }
+          }
+        }
+      ],
+      "selfClosing": true
+    },
+    "location": { "start": 504, "end": 541 },
+    "name": "Route",
+    "routePath": "/"
+  },
+  {
+    "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/v6mini/src/App.jsx",
+    "attributes": {},
+    "optional": false,
+    "isRouteElement": false,
+    "node": {
+      "type": "JSXOpeningElement",
+      "start": 552,
+      "end": 595,
+      "loc": {
+        "start": { "line": 20, "column": 10 },
+        "end": { "line": 20, "column": 53 }
+      },
+      "name": {
+        "type": "JSXIdentifier",
+        "start": 553,
+        "end": 558,
+        "loc": {
+          "start": { "line": 20, "column": 11 },
+          "end": { "line": 20, "column": 16 }
+        },
+        "name": "Route"
+      },
+      "attributes": [
+        {
+          "type": "JSXAttribute",
+          "start": 559,
+          "end": 572,
+          "loc": {
+            "start": { "line": 20, "column": 17 },
+            "end": { "line": 20, "column": 30 }
+          },
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 559,
+            "end": 563,
+            "loc": {
+              "start": { "line": 20, "column": 17 },
+              "end": { "line": 20, "column": 21 }
+            },
+            "name": "path"
+          },
+          "value": {
+            "type": "StringLiteral",
+            "start": 564,
+            "end": 572,
+            "loc": {
+              "start": { "line": 20, "column": 22 },
+              "end": { "line": 20, "column": 30 }
+            },
+            "extra": { "rawValue": "/page1", "raw": "\"/page1\"" },
+            "value": "/page1"
+          }
+        },
+        {
+          "type": "JSXAttribute",
+          "start": 573,
+          "end": 592,
+          "loc": {
+            "start": { "line": 20, "column": 31 },
+            "end": { "line": 20, "column": 50 }
+          },
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 573,
+            "end": 580,
+            "loc": {
+              "start": { "line": 20, "column": 31 },
+              "end": { "line": 20, "column": 38 }
+            },
+            "name": "element"
+          },
+          "value": {
+            "type": "JSXExpressionContainer",
+            "start": 581,
+            "end": 592,
+            "loc": {
+              "start": { "line": 20, "column": 39 },
+              "end": { "line": 20, "column": 50 }
+            },
+            "expression": {
+              "type": "JSXElement",
+              "start": 582,
+              "end": 591,
+              "loc": {
+                "start": { "line": 20, "column": 40 },
+                "end": { "line": 20, "column": 49 }
+              },
+              "openingElement": {
+                "type": "JSXOpeningElement",
+                "start": 582,
+                "end": 591,
+                "loc": {
+                  "start": { "line": 20, "column": 40 },
+                  "end": { "line": 20, "column": 49 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 583,
+                  "end": 588,
+                  "loc": {
+                    "start": { "line": 20, "column": 41 },
+                    "end": { "line": 20, "column": 46 }
+                  },
+                  "name": "Page1"
+                },
+                "attributes": [],
+                "selfClosing": true
+              },
+              "closingElement": null,
+              "children": []
+            }
+          }
+        }
+      ],
+      "selfClosing": true
+    },
+    "location": { "start": 552, "end": 595 },
+    "name": "Route",
+    "routePath": "/page1"
+  }
+]
