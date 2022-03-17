@@ -1,0 +1,19 @@
+.App {
+  color: rgb(224, 151, 125);
+  text-align: left;
+  font-size: xx-large;
+  padding: 30px 30px;
+}
+
+a {
+  color: rgb(87, 185, 88);
+}
+
+a:visited {
+  color: rgb(87, 185, 88);
+}
+
+.footer {
+  position: absolute;
+  bottom: 30px;
+}
