@@ -1,0 +1,899 @@
+{
+  "nodes": [
+    {
+      "position": { "x": 0, "y": 0 },
+      "type": "reactComponent",
+      "id": "App",
+      "data": {
+        "label": "App",
+        "linesOfCode": 7,
+        "code": "import \"./App.css\";\nimport { Route } from \"react-router-dom\";\n\nimport Page1 from \"./Page1\";\nimport Page2 from \"./Page2\";\n\nexport default function App() {\n  return (\n    <>\n      {yoYoYoYo && <Page1 />}\n      {areYouSure ? <Page2 /> : <div>NO NO NO!</div>}\n    </>\n  );\n}\n",
+        "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/App.jsx",
+        "component": {
+          "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/App.jsx",
+          "JSXElements": [
+            {
+              "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/App.jsx",
+              "attributes": {},
+              "optional": false,
+              "conditional": true,
+              "isRouteElement": false,
+              "node": {
+                "type": "JSXOpeningElement",
+                "start": 191,
+                "end": 200,
+                "loc": {
+                  "start": { "line": 10, "column": 19, "index": 191 },
+                  "end": { "line": 10, "column": 28, "index": 200 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 192,
+                  "end": 197,
+                  "loc": {
+                    "start": { "line": 10, "column": 20, "index": 192 },
+                    "end": { "line": 10, "column": 25, "index": 197 }
+                  },
+                  "name": "Page1"
+                },
+                "attributes": [],
+                "selfClosing": true
+              },
+              "location": { "start": 191, "end": 200 },
+              "name": "Page1",
+              "conditionalOperator": "[&&]:yoYoYoYo"
+            },
+            {
+              "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/App.jsx",
+              "attributes": {},
+              "optional": false,
+              "conditional": true,
+              "isRouteElement": false,
+              "node": {
+                "type": "JSXOpeningElement",
+                "start": 222,
+                "end": 231,
+                "loc": {
+                  "start": { "line": 11, "column": 20, "index": 222 },
+                  "end": { "line": 11, "column": 29, "index": 231 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 223,
+                  "end": 228,
+                  "loc": {
+                    "start": { "line": 11, "column": 21, "index": 223 },
+                    "end": { "line": 11, "column": 26, "index": 228 }
+                  },
+                  "name": "Page2"
+                },
+                "attributes": [],
+                "selfClosing": true
+              },
+              "location": { "start": 222, "end": 231 },
+              "name": "Page2",
+              "conditionalOperator": "[ternary]:areYouSure"
+            },
+            {
+              "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/App.jsx",
+              "attributes": {},
+              "optional": false,
+              "conditional": true,
+              "isRouteElement": false,
+              "node": {
+                "type": "JSXOpeningElement",
+                "start": 234,
+                "end": 239,
+                "loc": {
+                  "start": { "line": 11, "column": 32, "index": 234 },
+                  "end": { "line": 11, "column": 37, "index": 239 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 235,
+                  "end": 238,
+                  "loc": {
+                    "start": { "line": 11, "column": 33, "index": 235 },
+                    "end": { "line": 11, "column": 36, "index": 238 }
+                  },
+                  "name": "div"
+                },
+                "attributes": [],
+                "selfClosing": false
+              },
+              "location": { "start": 234, "end": 239 },
+              "name": "div",
+              "conditionalOperator": "[ternary]:areYouSure"
+            }
+          ],
+          "imports": [
+            { "alias": "Route", "name": "Route", "source": "react-router-dom" },
+            { "alias": "Page1", "name": "default", "source": "./Page1" },
+            { "alias": "Page2", "name": "default", "source": "./Page2" }
+          ],
+          "timesUsed": 1,
+          "code": "import \"./App.css\";\nimport { Route } from \"react-router-dom\";\n\nimport Page1 from \"./Page1\";\nimport Page2 from \"./Page2\";\n\nexport default function App() {\n  return (\n    <>\n      {yoYoYoYo && <Page1 />}\n      {areYouSure ? <Page2 /> : <div>NO NO NO!</div>}\n    </>\n  );\n}\n",
+          "node": {
+            "type": "FunctionDeclaration",
+            "start": 137,
+            "end": 270,
+            "loc": {
+              "start": { "line": 7, "column": 15, "index": 137 },
+              "end": { "line": 14, "column": 1, "index": 270 }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 146,
+              "end": 149,
+              "loc": {
+                "start": { "line": 7, "column": 24, "index": 146 },
+                "end": { "line": 7, "column": 27, "index": 149 },
+                "identifierName": "App"
+              },
+              "name": "App"
+            },
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 152,
+              "end": 270,
+              "loc": {
+                "start": { "line": 7, "column": 30, "index": 152 },
+                "end": { "line": 14, "column": 1, "index": 270 }
+              },
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 156,
+                  "end": 268,
+                  "loc": {
+                    "start": { "line": 8, "column": 2, "index": 156 },
+                    "end": { "line": 13, "column": 4, "index": 268 }
+                  },
+                  "argument": {
+                    "type": "JSXFragment",
+                    "start": 169,
+                    "end": 263,
+                    "loc": {
+                      "start": { "line": 9, "column": 4, "index": 169 },
+                      "end": { "line": 12, "column": 7, "index": 263 }
+                    },
+                    "openingFragment": {
+                      "type": "JSXOpeningFragment",
+                      "start": 169,
+                      "end": 171,
+                      "loc": {
+                        "start": { "line": 9, "column": 4, "index": 169 },
+                        "end": { "line": 9, "column": 6, "index": 171 }
+                      }
+                    },
+                    "closingFragment": {
+                      "type": "JSXClosingFragment",
+                      "start": 260,
+                      "end": 263,
+                      "loc": {
+                        "start": { "line": 12, "column": 4, "index": 260 },
+                        "end": { "line": 12, "column": 7, "index": 263 }
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "JSXText",
+                        "start": 171,
+                        "end": 178,
+                        "loc": {
+                          "start": { "line": 9, "column": 6, "index": 171 },
+                          "end": { "line": 10, "column": 6, "index": 178 }
+                        },
+                        "extra": { "rawValue": "\n      ", "raw": "\n      " },
+                        "value": "\n      "
+                      },
+                      {
+                        "type": "JSXExpressionContainer",
+                        "start": 178,
+                        "end": 201,
+                        "loc": {
+                          "start": { "line": 10, "column": 6, "index": 178 },
+                          "end": { "line": 10, "column": 29, "index": 201 }
+                        },
+                        "expression": {
+                          "type": "LogicalExpression",
+                          "start": 179,
+                          "end": 200,
+                          "loc": {
+                            "start": { "line": 10, "column": 7, "index": 179 },
+                            "end": { "line": 10, "column": 28, "index": 200 }
+                          },
+                          "left": {
+                            "type": "Identifier",
+                            "start": 179,
+                            "end": 187,
+                            "loc": {
+                              "start": {
+                                "line": 10,
+                                "column": 7,
+                                "index": 179
+                              },
+                              "end": { "line": 10, "column": 15, "index": 187 },
+                              "identifierName": "yoYoYoYo"
+                            },
+                            "name": "yoYoYoYo"
+                          },
+                          "operator": "&&",
+                          "right": {
+                            "type": "JSXElement",
+                            "start": 191,
+                            "end": 200,
+                            "loc": {
+                              "start": {
+                                "line": 10,
+                                "column": 19,
+                                "index": 191
+                              },
+                              "end": { "line": 10, "column": 28, "index": 200 }
+                            },
+                            "openingElement": {
+                              "type": "JSXOpeningElement",
+                              "start": 191,
+                              "end": 200,
+                              "loc": {
+                                "start": {
+                                  "line": 10,
+                                  "column": 19,
+                                  "index": 191
+                                },
+                                "end": {
+                                  "line": 10,
+                                  "column": 28,
+                                  "index": 200
+                                }
+                              },
+                              "name": {
+                                "type": "JSXIdentifier",
+                                "start": 192,
+                                "end": 197,
+                                "loc": {
+                                  "start": {
+                                    "line": 10,
+                                    "column": 20,
+                                    "index": 192
+                                  },
+                                  "end": {
+                                    "line": 10,
+                                    "column": 25,
+                                    "index": 197
+                                  }
+                                },
+                                "name": "Page1"
+                              },
+                              "attributes": [],
+                              "selfClosing": true
+                            },
+                            "closingElement": null,
+                            "children": []
+                          }
+                        }
+                      },
+                      {
+                        "type": "JSXText",
+                        "start": 201,
+                        "end": 208,
+                        "loc": {
+                          "start": { "line": 10, "column": 29, "index": 201 },
+                          "end": { "line": 11, "column": 6, "index": 208 }
+                        },
+                        "extra": { "rawValue": "\n      ", "raw": "\n      " },
+                        "value": "\n      "
+                      },
+                      {
+                        "type": "JSXExpressionContainer",
+                        "start": 208,
+                        "end": 255,
+                        "loc": {
+                          "start": { "line": 11, "column": 6, "index": 208 },
+                          "end": { "line": 11, "column": 53, "index": 255 }
+                        },
+                        "expression": {
+                          "type": "ConditionalExpression",
+                          "start": 209,
+                          "end": 254,
+                          "loc": {
+                            "start": { "line": 11, "column": 7, "index": 209 },
+                            "end": { "line": 11, "column": 52, "index": 254 }
+                          },
+                          "test": {
+                            "type": "Identifier",
+                            "start": 209,
+                            "end": 219,
+                            "loc": {
+                              "start": {
+                                "line": 11,
+                                "column": 7,
+                                "index": 209
+                              },
+                              "end": { "line": 11, "column": 17, "index": 219 },
+                              "identifierName": "areYouSure"
+                            },
+                            "name": "areYouSure"
+                          },
+                          "consequent": {
+                            "type": "JSXElement",
+                            "start": 222,
+                            "end": 231,
+                            "loc": {
+                              "start": {
+                                "line": 11,
+                                "column": 20,
+                                "index": 222
+                              },
+                              "end": { "line": 11, "column": 29, "index": 231 }
+                            },
+                            "openingElement": {
+                              "type": "JSXOpeningElement",
+                              "start": 222,
+                              "end": 231,
+                              "loc": {
+                                "start": {
+                                  "line": 11,
+                                  "column": 20,
+                                  "index": 222
+                                },
+                                "end": {
+                                  "line": 11,
+                                  "column": 29,
+                                  "index": 231
+                                }
+                              },
+                              "name": {
+                                "type": "JSXIdentifier",
+                                "start": 223,
+                                "end": 228,
+                                "loc": {
+                                  "start": {
+                                    "line": 11,
+                                    "column": 21,
+                                    "index": 223
+                                  },
+                                  "end": {
+                                    "line": 11,
+                                    "column": 26,
+                                    "index": 228
+                                  }
+                                },
+                                "name": "Page2"
+                              },
+                              "attributes": [],
+                              "selfClosing": true
+                            },
+                            "closingElement": null,
+                            "children": []
+                          },
+                          "alternate": {
+                            "type": "JSXElement",
+                            "start": 234,
+                            "end": 254,
+                            "loc": {
+                              "start": {
+                                "line": 11,
+                                "column": 32,
+                                "index": 234
+                              },
+                              "end": { "line": 11, "column": 52, "index": 254 }
+                            },
+                            "openingElement": {
+                              "type": "JSXOpeningElement",
+                              "start": 234,
+                              "end": 239,
+                              "loc": {
+                                "start": {
+                                  "line": 11,
+                                  "column": 32,
+                                  "index": 234
+                                },
+                                "end": {
+                                  "line": 11,
+                                  "column": 37,
+                                  "index": 239
+                                }
+                              },
+                              "name": {
+                                "type": "JSXIdentifier",
+                                "start": 235,
+                                "end": 238,
+                                "loc": {
+                                  "start": {
+                                    "line": 11,
+                                    "column": 33,
+                                    "index": 235
+                                  },
+                                  "end": {
+                                    "line": 11,
+                                    "column": 36,
+                                    "index": 238
+                                  }
+                                },
+                                "name": "div"
+                              },
+                              "attributes": [],
+                              "selfClosing": false
+                            },
+                            "closingElement": {
+                              "type": "JSXClosingElement",
+                              "start": 248,
+                              "end": 254,
+                              "loc": {
+                                "start": {
+                                  "line": 11,
+                                  "column": 46,
+                                  "index": 248
+                                },
+                                "end": {
+                                  "line": 11,
+                                  "column": 52,
+                                  "index": 254
+                                }
+                              },
+                              "name": {
+                                "type": "JSXIdentifier",
+                                "start": 250,
+                                "end": 253,
+                                "loc": {
+                                  "start": {
+                                    "line": 11,
+                                    "column": 48,
+                                    "index": 250
+                                  },
+                                  "end": {
+                                    "line": 11,
+                                    "column": 51,
+                                    "index": 253
+                                  }
+                                },
+                                "name": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "type": "JSXText",
+                                "start": 239,
+                                "end": 248,
+                                "loc": {
+                                  "start": {
+                                    "line": 11,
+                                    "column": 37,
+                                    "index": 239
+                                  },
+                                  "end": {
+                                    "line": 11,
+                                    "column": 46,
+                                    "index": 248
+                                  }
+                                },
+                                "extra": {
+                                  "rawValue": "NO NO NO!",
+                                  "raw": "NO NO NO!"
+                                },
+                                "value": "NO NO NO!"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "type": "JSXText",
+                        "start": 255,
+                        "end": 260,
+                        "loc": {
+                          "start": { "line": 11, "column": 53, "index": 255 },
+                          "end": { "line": 12, "column": 4, "index": 260 }
+                        },
+                        "extra": { "rawValue": "\n    ", "raw": "\n    " },
+                        "value": "\n    "
+                      }
+                    ],
+                    "extra": { "parenthesized": true, "parenStart": 163 }
+                  }
+                }
+              ],
+              "directives": []
+            }
+          },
+          "location": { "start": 137, "end": 270 },
+          "name": "App"
+        },
+        "outDegree": 2,
+        "inDegree": 0
+      }
+    },
+    {
+      "position": { "x": 0, "y": 0 },
+      "type": "reactComponent",
+      "id": "App:Page1",
+      "data": {
+        "label": "Page1",
+        "linesOfCode": 2,
+        "component": {
+          "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/Page1.jsx",
+          "JSXElements": [
+            {
+              "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/Page1.jsx",
+              "attributes": {},
+              "optional": false,
+              "conditional": false,
+              "isRouteElement": false,
+              "node": {
+                "type": "JSXOpeningElement",
+                "start": 43,
+                "end": 46,
+                "loc": {
+                  "start": { "line": 2, "column": 9, "index": 43 },
+                  "end": { "line": 2, "column": 12, "index": 46 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 44,
+                  "end": 45,
+                  "loc": {
+                    "start": { "line": 2, "column": 10, "index": 44 },
+                    "end": { "line": 2, "column": 11, "index": 45 }
+                  },
+                  "name": "p"
+                },
+                "attributes": [],
+                "selfClosing": false
+              },
+              "location": { "start": 43, "end": 46 },
+              "name": "p"
+            }
+          ],
+          "imports": [],
+          "timesUsed": 1,
+          "code": "export default function Page1() {\n  return <p>PAGE 1</p>;\n}\n",
+          "node": {
+            "type": "FunctionDeclaration",
+            "start": 15,
+            "end": 59,
+            "loc": {
+              "start": { "line": 1, "column": 15, "index": 15 },
+              "end": { "line": 3, "column": 1, "index": 59 }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 24,
+              "end": 29,
+              "loc": {
+                "start": { "line": 1, "column": 24, "index": 24 },
+                "end": { "line": 1, "column": 29, "index": 29 },
+                "identifierName": "Page1"
+              },
+              "name": "Page1"
+            },
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 32,
+              "end": 59,
+              "loc": {
+                "start": { "line": 1, "column": 32, "index": 32 },
+                "end": { "line": 3, "column": 1, "index": 59 }
+              },
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 36,
+                  "end": 57,
+                  "loc": {
+                    "start": { "line": 2, "column": 2, "index": 36 },
+                    "end": { "line": 2, "column": 23, "index": 57 }
+                  },
+                  "argument": {
+                    "type": "JSXElement",
+                    "start": 43,
+                    "end": 56,
+                    "loc": {
+                      "start": { "line": 2, "column": 9, "index": 43 },
+                      "end": { "line": 2, "column": 22, "index": 56 }
+                    },
+                    "openingElement": {
+                      "type": "JSXOpeningElement",
+                      "start": 43,
+                      "end": 46,
+                      "loc": {
+                        "start": { "line": 2, "column": 9, "index": 43 },
+                        "end": { "line": 2, "column": 12, "index": 46 }
+                      },
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "start": 44,
+                        "end": 45,
+                        "loc": {
+                          "start": { "line": 2, "column": 10, "index": 44 },
+                          "end": { "line": 2, "column": 11, "index": 45 }
+                        },
+                        "name": "p"
+                      },
+                      "attributes": [],
+                      "selfClosing": false
+                    },
+                    "closingElement": {
+                      "type": "JSXClosingElement",
+                      "start": 52,
+                      "end": 56,
+                      "loc": {
+                        "start": { "line": 2, "column": 18, "index": 52 },
+                        "end": { "line": 2, "column": 22, "index": 56 }
+                      },
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "start": 54,
+                        "end": 55,
+                        "loc": {
+                          "start": { "line": 2, "column": 20, "index": 54 },
+                          "end": { "line": 2, "column": 21, "index": 55 }
+                        },
+                        "name": "p"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "JSXText",
+                        "start": 46,
+                        "end": 52,
+                        "loc": {
+                          "start": { "line": 2, "column": 12, "index": 46 },
+                          "end": { "line": 2, "column": 18, "index": 52 }
+                        },
+                        "extra": { "rawValue": "PAGE 1", "raw": "PAGE 1" },
+                        "value": "PAGE 1"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "directives": []
+            }
+          },
+          "location": { "start": 15, "end": 59 },
+          "name": "Page1"
+        },
+        "code": "export default function Page1() {\n  return <p>PAGE 1</p>;\n}\n",
+        "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/Page1.jsx",
+        "outDegree": 0,
+        "inDegree": 1
+      }
+    },
+    {
+      "position": { "x": 0, "y": 0 },
+      "type": "reactComponent",
+      "id": "App:Page2",
+      "data": {
+        "label": "Page2",
+        "linesOfCode": 6,
+        "component": {
+          "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/Page2.jsx",
+          "JSXElements": [
+            {
+              "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/Page2.jsx",
+              "attributes": {},
+              "optional": false,
+              "conditional": false,
+              "isRouteElement": false,
+              "node": {
+                "type": "JSXOpeningElement",
+                "start": 49,
+                "end": 52,
+                "loc": {
+                  "start": { "line": 3, "column": 4, "index": 49 },
+                  "end": { "line": 3, "column": 7, "index": 52 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 50,
+                  "end": 51,
+                  "loc": {
+                    "start": { "line": 3, "column": 5, "index": 50 },
+                    "end": { "line": 3, "column": 6, "index": 51 }
+                  },
+                  "name": "p"
+                },
+                "attributes": [],
+                "selfClosing": false
+              },
+              "location": { "start": 49, "end": 52 },
+              "name": "p"
+            }
+          ],
+          "imports": [],
+          "timesUsed": 1,
+          "code": "export default function Page2() {\n  return (\n    <p>\n      <>PAGE 2</>\n    </p>\n  );\n}\n",
+          "node": {
+            "type": "FunctionDeclaration",
+            "start": 15,
+            "end": 86,
+            "loc": {
+              "start": { "line": 1, "column": 15, "index": 15 },
+              "end": { "line": 7, "column": 1, "index": 86 }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 24,
+              "end": 29,
+              "loc": {
+                "start": { "line": 1, "column": 24, "index": 24 },
+                "end": { "line": 1, "column": 29, "index": 29 },
+                "identifierName": "Page2"
+              },
+              "name": "Page2"
+            },
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 32,
+              "end": 86,
+              "loc": {
+                "start": { "line": 1, "column": 32, "index": 32 },
+                "end": { "line": 7, "column": 1, "index": 86 }
+              },
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 36,
+                  "end": 84,
+                  "loc": {
+                    "start": { "line": 2, "column": 2, "index": 36 },
+                    "end": { "line": 6, "column": 4, "index": 84 }
+                  },
+                  "argument": {
+                    "type": "JSXElement",
+                    "start": 49,
+                    "end": 79,
+                    "loc": {
+                      "start": { "line": 3, "column": 4, "index": 49 },
+                      "end": { "line": 5, "column": 8, "index": 79 }
+                    },
+                    "openingElement": {
+                      "type": "JSXOpeningElement",
+                      "start": 49,
+                      "end": 52,
+                      "loc": {
+                        "start": { "line": 3, "column": 4, "index": 49 },
+                        "end": { "line": 3, "column": 7, "index": 52 }
+                      },
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "start": 50,
+                        "end": 51,
+                        "loc": {
+                          "start": { "line": 3, "column": 5, "index": 50 },
+                          "end": { "line": 3, "column": 6, "index": 51 }
+                        },
+                        "name": "p"
+                      },
+                      "attributes": [],
+                      "selfClosing": false
+                    },
+                    "closingElement": {
+                      "type": "JSXClosingElement",
+                      "start": 75,
+                      "end": 79,
+                      "loc": {
+                        "start": { "line": 5, "column": 4, "index": 75 },
+                        "end": { "line": 5, "column": 8, "index": 79 }
+                      },
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "start": 77,
+                        "end": 78,
+                        "loc": {
+                          "start": { "line": 5, "column": 6, "index": 77 },
+                          "end": { "line": 5, "column": 7, "index": 78 }
+                        },
+                        "name": "p"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "JSXText",
+                        "start": 52,
+                        "end": 59,
+                        "loc": {
+                          "start": { "line": 3, "column": 7, "index": 52 },
+                          "end": { "line": 4, "column": 6, "index": 59 }
+                        },
+                        "extra": { "rawValue": "\n      ", "raw": "\n      " },
+                        "value": "\n      "
+                      },
+                      {
+                        "type": "JSXFragment",
+                        "start": 59,
+                        "end": 70,
+                        "loc": {
+                          "start": { "line": 4, "column": 6, "index": 59 },
+                          "end": { "line": 4, "column": 17, "index": 70 }
+                        },
+                        "openingFragment": {
+                          "type": "JSXOpeningFragment",
+                          "start": 59,
+                          "end": 61,
+                          "loc": {
+                            "start": { "line": 4, "column": 6, "index": 59 },
+                            "end": { "line": 4, "column": 8, "index": 61 }
+                          }
+                        },
+                        "closingFragment": {
+                          "type": "JSXClosingFragment",
+                          "start": 67,
+                          "end": 70,
+                          "loc": {
+                            "start": { "line": 4, "column": 14, "index": 67 },
+                            "end": { "line": 4, "column": 17, "index": 70 }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "JSXText",
+                            "start": 61,
+                            "end": 67,
+                            "loc": {
+                              "start": { "line": 4, "column": 8, "index": 61 },
+                              "end": { "line": 4, "column": 14, "index": 67 }
+                            },
+                            "extra": { "rawValue": "PAGE 2", "raw": "PAGE 2" },
+                            "value": "PAGE 2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "JSXText",
+                        "start": 70,
+                        "end": 75,
+                        "loc": {
+                          "start": { "line": 4, "column": 17, "index": 70 },
+                          "end": { "line": 5, "column": 4, "index": 75 }
+                        },
+                        "extra": { "rawValue": "\n    ", "raw": "\n    " },
+                        "value": "\n    "
+                      }
+                    ],
+                    "extra": { "parenthesized": true, "parenStart": 43 }
+                  }
+                }
+              ],
+              "directives": []
+            }
+          },
+          "location": { "start": 15, "end": 86 },
+          "name": "Page2"
+        },
+        "code": "export default function Page2() {\n  return (\n    <p>\n      <>PAGE 2</>\n    </p>\n  );\n}\n",
+        "path": "/Users/piotrek/Dropbox/ITU/Master_Project/sample-apps/route-conditional/src/Page2.jsx",
+        "outDegree": 0,
+        "inDegree": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "App:Page1",
+      "source": "App",
+      "target": "App:Page1",
+      "animated": true,
+      "conditional": "[&&]:yoYoYoYo",
+      "label": "[&&]:yoYoYoYo"
+    },
+    {
+      "id": "App:Page2",
+      "source": "App",
+      "target": "App:Page2",
+      "animated": true,
+      "conditional": "[ternary]:areYouSure",
+      "label": "[ternary]:areYouSure"
+    }
+  ]
+}

@@ -1,14 +1,5 @@
-import TruePage from "./TruePage";
-
 const Welcome = () => {
-  const bool = true;
-
-  return (
-    <div>
-      WELCOME!
-      {bool && <TruePage />}
-    </div>
-  );
+  return <div>WELCOME!</div>;
 };
 
 export default Welcome;
