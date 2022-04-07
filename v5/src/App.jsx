@@ -5,9 +5,9 @@ import Header from "./components/Header";
 import Navigator from "./components/Navigator";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Page1 from "./pages/Page1";
-import Page2 from "./pages/Page2";
+import Home from "../../all-features/all-features/src/components/pages/Home";
+import Page1 from "../../all-features/all-features/src/components/pages/Page1";
+import Page2 from "../../all-features/all-features/src/components/pages/Page2";
 
 const App = () => {
   return (
