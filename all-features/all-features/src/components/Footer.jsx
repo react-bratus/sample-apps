@@ -1,4 +1,4 @@
-import RenderedThroughIf from "../RenderedThroughIf";
+import RenderedThroughIf from "./RenderedThroughIf";
 
 export default function Footer() {
   var condition = true;

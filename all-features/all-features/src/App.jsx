@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Page from "./components/AnotherPage";
-import LotsOfLinesComp from "./components/Welcome";
+import LotsOfLinesComp from "./components/LotsOfLinesComp";
 import Navigator from "./components/Navigator";
 import Body from "./components/Body";
 import Home from "./components/pages/Home";
